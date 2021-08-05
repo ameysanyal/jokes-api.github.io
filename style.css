@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:chocolate;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    display: flex;
+}
+
+#joke, #Btn{
+    position:absolute;
+}
+
+h2{
+    text-align: center;
+    z-index: 1;
+    top: 200%;
+     color:green;
+    position: inherit;
+     
+    left: 78%;
+}
+#joke{
+    background-color: #69f1ff;
+    height: 500%;
+    width: 130%;
+    left: 38%;
+    top: 180%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 20px;
+   
+}
+
+#Btn{
+    width: 17%;
+    height: 60%;
+    color: white;
+    background-color:brown;
+    top: 600%;
+    left: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    
+}
+
+#Btn:hover{
+    color: brown;
+    background-color: white;
+}
